@@ -22,7 +22,7 @@ function phoneValidator(phoneNum){
 function emailValidator(email){
 	var email_format = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 	if(email.match(email_format)){
-		$('#abc2').html("Email Address verified").css({color:'green'});
+		$('#abc2').html("Email Address Verified").css({color:'green'});
 		return true;
 	}
 	else{
