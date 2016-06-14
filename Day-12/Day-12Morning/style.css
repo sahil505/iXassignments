@@ -1,0 +1,18 @@
+.wrapper{
+	background-color: #ECECEA;
+	border:1px solid pink;
+	text-align: center;
+}
+body{
+	background-color: #74AFAD;
+}
+h1{
+	color: #990066;
+}
+ol{
+	color: #990066;
+	font-size: 17px;
+	font-family: cursive;
+}
+
+
