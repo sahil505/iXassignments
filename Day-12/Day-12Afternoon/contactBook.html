@@ -27,12 +27,11 @@
 				</p>
 			</form>
 			<ol>
-				<li ng-repeat = "item in items track by $index" ng-click="remove(item)">{{item}}</li>
+				<li ng-repeat = "item in items | filter : input3" ng-click="remove(item)">{{item}}</li>
 				
 			</ol>
-			<div ng-repeat="item in items track by $index | filter : string"></div>
 		</div>
 	</div>
 
 </body>
-</html>s
+</html>
