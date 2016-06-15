@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Book</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="./contactBook.js"></script>
+	<link rel="stylesheet" type="text/css" href="./contactBook.css">
+</head>
+<body ng-app="formApp" ng-controller="formCtrl">
+	<div ng-show = "checkInputs" class="transform">
+		<div class="col-md-6 col-md-offset-3">
+		<h1>Contact Book</h1>
+		<form ng-submit = "addItem()">
+				<p class="headings">Name</p>
+				<input type="text" ng-model="input1"></input>
+				<p ng-model="error1" class="errorMsg">{{error1}}</p>
+				<p class="headings">Phone Number</p>
+				<input type="text" ng-model="input2">
+				<p ng-model="error2" class="errorMsg">{{error2}}</p>
+				<p></p>
+				<p><button ng-click="checkInputs()">ENTER</button>
+				</p>
+				<p>
+				<input type="text" ng-model="input3">
+				<button ng-click="checkInputs()">SEARCH</button>
+				</p>
+			</form>
+			<ol>
+				<li ng-repeat = "item in items track by $index" ng-click="remove(item)">{{item}}</li>
+				
+			</ol>
+			<div ng-repeat="item in items track by $index | filter : string"></div>
+		</div>
+	</div>
+
+</body>
+</html>s

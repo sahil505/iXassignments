@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="./formValidation.js"></script>
+    <link rel="stylesheet" type="text/css" href="./formValidation.css">
+</head>
+<body ng-app="formApp" ng-controller="formCtrl">
+<div ng-hide = "new" ng-model = "next" class="nextPage">{{next}}</div>
+    <div ng-show = "checkInputs" class="transform">
+    <div class="col-md-6 col-md-offset-3">
+    <h1>Form Validation</h1>
+            <form>
+                <p class="headings">Name</p>
+                <input type="text" ng-model="input1"></input>
+                <p ng-model="error1" class="errorMsg">{{error1}}</p>
+                <p class="headings">Phone Number</p>
+                <input type="text" ng-model="input2">
+                <p ng-model="error2" class="errorMsg">{{error2}}</p>
+                <p class="headings">E-mail</p>
+                <input type="text" ng-model="input3">
+                <p ng-model="error3" class="errorMsg">{{error3}}</p>
+                <p class="headings">Password</p>
+                <input type="text" ng-model="input4" style="-webkit-text-security: square;">
+                <p ng-model="error4" class="errorMsg">{{error4}}</p>
+                <p class="headings">Re-Type Password</p>
+                <input type="text" ng-model="input5" style="-webkit-text-security: square;">
+                <p></p>
+                <p><button ng-click="checkInputs()">Submit Form</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
