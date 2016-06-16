@@ -1,0 +1,18 @@
+.wrapper{ 
+	padding: 20px; 
+	background-color: #CECFCE; 
+	border: 1pt solid #990066;
+}
+.heading{
+	text-align: center;
+	color: #990066;
+}
+.btn{
+	margin-top: 20px;
+}
+
+ol{
+	color: #990066;
+	font-size: 17px;
+	font-family: cursive;
+}

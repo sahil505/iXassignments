@@ -1,0 +1,22 @@
+<div ng-controller="formCtrl">
+	<h1>Form Validation</h1>
+	<form>
+		<p class="headings">Name</p>
+		<input type="text" ng-model="input1"></input>
+		<p ng-model="error1" class="errorMsg">{{error1}}</p>
+		<p class="headings">Phone Number</p>
+		<input type="text" ng-model="input2">
+		<p ng-model="error2" class="errorMsg">{{error2}}</p>
+		<p class="headings">E-mail</p>
+		<input type="text" ng-model="input3">
+		<p ng-model="error3" class="errorMsg">{{error3}}</p>
+		<p class="headings">Password</p>
+		<input type="text" ng-model="input4" style="-webkit-text-security: square;">
+		<p ng-model="error4" class="errorMsg">{{error4}}</p>
+		<p class="headings">Re-Type Password</p>
+		<input type="text" ng-model="input5" style="-webkit-text-security: square;">
+		<p></p>
+		<p><a href="#/{{xyz}}"><button ng-click="checkInputs()">Submit Form</button></a>
+		</p>
+	</form>
+</div>
