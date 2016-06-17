@@ -1,0 +1,19 @@
+.wrapper{
+	background-color: #e0eaca;
+	border:1px solid green;
+	text-align: center;
+}
+ol{
+	color: #990066;
+	font-size: 17px;
+	font-family: cursive;
+	cursor: pointer;
+}
+h1{
+	color: #1d9099;
+	font-weight: bold;
+	font-family: serif;
+}
+body{
+	background-color: #eed8d4;
+}

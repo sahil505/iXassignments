@@ -1,0 +1,25 @@
+img {
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+#color{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 150px;
+	font-weight: bold;
+}
+body{
+	background-color: #d5e4df;
+}
+.click{
+	color: #bd9f7f;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 250px;
+	font-family: cursive;
+}
+#one{
+	color: green;
+
+}
