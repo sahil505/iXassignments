@@ -1,0 +1,20 @@
+#list{
+	border:1px solid pink;
+	background-color: #bce4f2;
+	color: #990066;
+	font-size: 17px;
+	font-family: cursive;
+	cursor: pointer;
+}
+
+body{
+	text-align: center;
+}
+
+#heading{
+	color: #6397b2;
+	font-weight: bolder;
+}
+#bady{
+	background-color: #f4d0cd ;
+}
