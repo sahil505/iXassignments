@@ -1,0 +1,76 @@
+.wrapper {
+	padding: 20px;
+	background-color: #fafafa;
+	border: 1pt solid #ddd;
+}
+
+.prop {
+	padding: 20px ;
+}
+#prop_heading{
+	text-align: center;
+	color: #E08282;
+	font-weight: bolder;
+	font-size: 40px;
+}
+.alert:hover{
+	opacity: 0;
+	transition: 1s;
+}
+.mytext{
+	font-size: 20px;
+	text-align: center;
+	color: #005580;
+	font-size: 23px;
+}
+.myheading{
+	text-align: center;
+	color: #E08282;
+	font-weight: bolder;
+	font-size: 45px; 
+}
+.smallHeading{
+	font-size: 16px;
+	color: #5b5959;
+	font-family: serif;
+	font-weight: bold;
+}
+.isScore{
+	font-family: serif;
+	color: #1d9099;
+	font-size: 16px;
+}
+.link:hover{
+	color: #1d9099;
+	font-weight: bold;
+}
+#button{
+	margin-top: -30px;
+	margin-left: 150px;
+}
+button:hover{
+	color: green;
+	font-weight: bold;
+}
+.feedText{
+	font-size: 23px;
+	text-align: center;
+	color: #005580;
+}
+.names{
+	color: #e52881;
+}
+.smallHeading2{
+	font-size: 16px;
+	color: #5b5959;
+	font-family: serif;
+	font-weight: bold;
+	margin-left: 350px;
+	margin-top: -65px;
+}
+.isScore2{
+	font-family: serif;
+	color: #1d9099;
+	font-size: 16px;
+	margin-left: 350px;
+}

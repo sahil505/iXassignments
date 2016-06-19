@@ -1,0 +1,17 @@
+<div ng-controller="MeCtrl">
+	<h2 class = "myheading">Props to me</h2>
+	<a href="#/" class="link">Back to feed</a>
+	<div class="props-feed">
+		<div class="prop" ng-repeat="prop in props">
+			<p class="mytext">{{prop.text}}</p>
+			<div>
+				<p class="smallHeading">Positivity</p>
+				<p class="isScore"> {{prop.positivity_score | number}}</p>
+				<p></p>
+				<p class="smallHeading2">Posted </p>
+				<p class="isScore2">{{prop.created_at | date:'dd, MMMM yyyy HH:mm'}}</p>
+			</div>
+			<hr>
+		</div>
+	</div>
+</div>
